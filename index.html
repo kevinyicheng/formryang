@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企業主資產保全攻略 - 楊先生專屬</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Noto Sans TC', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            gold: '#C5A065',
+                            dark: '#1A202C',
+                            blue: '#1E3A8A',
+                            light: '#F7FAFC'
+                        }
+                    },
+                    boxShadow: {
+                        'xl-gold': '0 20px 25px -5px rgba(197, 160, 101, 0.15), 0 10px 10px -5px rgba(197, 160, 101, 0.1)'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #f0f2f5; }
+        .card-shadow { box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+        
+        @keyframes flowDown {
+            0% { transform: translateY(-5px); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateY(5px); opacity: 0; }
+        }
+        .animate-flow { animation: flowDown 1.5s infinite; }
+    </style>
+</head>
+<body class="text-gray-800 antialiased pb-12">
+
+    <header class="bg-white py-10 shadow-sm mb-8">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-5xl font-black text-brand-blue mb-3">還房貸 <span class="text-brand-gold">vs</span> 存房貸</h1>
+            <p class="text-lg md:text-2xl text-gray-500 font-bold mt-4">給企業主的資產備忘錄：<br class="md:hidden">如何用「負債」幫孩子上一堂財商課？</p>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-4 mb-8">
+        <div class="bg-brand-blue text-white rounded-xl p-5 flex flex-wrap justify-center items-center gap-4 text-sm md:text-lg font-bold max-w-5xl mx-auto shadow-lg">
+            <div class="flex items-center"><i class="fas fa-user-tie text-brand-gold mr-2 text-xl"></i> 楊先生 (50歲企業主)</div>
+            <span class="hidden md:inline text-gray-400">|</span>
+            <div class="flex items-center"><i class="fas fa-building text-brand-gold mr-2 text-xl"></i> 房貸餘額：2,100萬</div>
+            <span class="hidden md:inline text-gray-400">|</span>
+            <div class="flex items-center"><i class="fas fa-briefcase text-brand-gold mr-2 text-xl"></i> 手邊現金：2,100萬</div>
+            <span class="hidden md:inline text-gray-400">|</span>
+            <div class="flex items-center"><i class="fas fa-users text-brand-gold mr-2 text-xl"></i> 傳承對象：2位兒子</div>
+        </div>
+    </div>
+
+    <section class="container mx-auto px-4 mb-16">
+        <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            
+            <div class="bg-white rounded-3xl p-8 card-shadow border border-gray-100 relative flex flex-col h-full">
+                <div class="text-center mb-8">
+                    <div class="inline-block bg-gray-600 text-white rounded-lg px-4 py-2 text-xl font-black mb-2">A</div>
+                    <h3 class="text-2xl font-black text-gray-700">傳統觀念：無債一身輕？</h3>
+                </div>
+
+                <div class="space-y-8 flex-grow">
+                    <div class="flex">
+                        <div class="flex-shrink-0 w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 font-bold text-lg mt-1">1</div>
+                        <div class="ml-5">
+                            <h4 class="text-xl font-bold text-gray-800">2100萬活錢變死錢</h4>
+                            <p class="text-gray-500 text-lg">這不是籌碼問題，而是「資金效率」問題。將高產值的現金填入低利的房貸，等於放棄了資金在市場上創造更高獲利的機會。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex">
+                        <div class="flex-shrink-0 w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 font-bold text-lg mt-1">2</div>
+                        <div class="ml-5">
+                            <h4 class="text-xl font-bold text-gray-800">資產單一化風險</h4>
+                            <p class="text-gray-500 text-lg">錢全部鎖進房地產。若遇到股市崩盤或本業急需，房子變現速度慢，遠水救不了近火。</p>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0 w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 font-bold text-lg mt-1">3</div>
+                        <div class="ml-5">
+                            <h4 class="text-xl font-bold text-gray-800">房產共有 = 資產凍結</h4>
+                            <p class="text-gray-500 text-lg">房子若一人一半（持分），未來「一人想賣、一人想租」即陷入僵局。處分權不完整，往往是兄弟反目、資產變成「廢宅」的開始。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-100 rounded-xl p-8 text-center mt-10">
+                    <p class="text-base text-gray-500 font-bold mb-2">30年後的結局</p>
+                    <p class="text-2xl font-bold text-gray-700">名下只有不動產</p>
+                    <p class="text-5xl font-black text-gray-400 my-3">現金 $0</p>
+                    
+                    <div class="my-6 border-t border-b border-gray-200 py-4">
+                        <span class="bg-gray-400 text-white px-3 py-1 rounded-full text-sm font-bold mb-2 inline-block">控制權旁落</span>
+                        <p class="text-gray-600 font-bold">交給法律、特留分、繼承順位</p>
+                    </div>
+
+                    <p class="text-2xl md:text-3xl text-red-600 font-black leading-snug">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>身故時，家人只拿到房子<br>
+                        <span class="text-base font-normal text-red-500">(且難以公平分配)</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 card-shadow border-4 border-brand-gold relative flex flex-col h-full transform md:-translate-y-4">
+                <div class="absolute top-4 right-4 bg-red-600 text-white text-sm font-bold px-4 py-1 rounded-full animate-pulse shadow-md">富人思維推薦</div>
+                
+                <div class="text-center mb-8">
+                    <div class="inline-block bg-brand-blue text-white rounded-lg px-4 py-2 text-xl font-black mb-2">B</div>
+                    <h3 class="text-2xl font-black text-brand-blue">活化策略：打造資產避風港</h3>
+                </div>
+
+                <div class="mb-8">
+                    <div class="flex">
+                        <div class="flex-shrink-0 w-10 h-10 bg-yellow-100 text-brand-gold rounded-full flex items-center justify-center font-bold text-lg mt-1">1</div>
+                        <div class="ml-5 w-full">
+                            <h4 class="text-xl font-bold text-gray-800 mb-2">建立現金庫 (股債分離)</h4>
+                            <div class="bg-blue-50 rounded-lg p-4 text-base mb-3 border border-blue-100">
+                                <p class="text-gray-600 mb-2">比起股市波動，這裡更安全：</p>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-gray-800">每年投入</span>
+                                    <span class="font-bold">700 萬</span>
+                                </div>
+                                <div class="flex justify-between border-t border-blue-200 pt-1">
+                                    <span class="text-gray-800">三年總資產</span>
+                                    <span class="font-bold text-brand-blue text-lg">2,100 萬</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex mt-6">
+                        <div class="flex-shrink-0 w-10 h-10 bg-yellow-100 text-brand-gold rounded-full flex items-center justify-center font-bold text-lg mt-1">2</div>
+                        <div class="ml-5 w-full">
+                            <h4 class="text-xl font-bold text-gray-800 mb-2">系統自動繳房貸 (55歲起)</h4>
+                            
+                            <div class="bg-white border-2 border-brand-gold border-dashed rounded-xl p-5 relative text-center shadow-md">
+                                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-brand-gold text-white text-xs px-3 py-1 rounded font-bold">資產養房系統</div>
+                                
+                                <div class="flex justify-between items-center text-brand-blue font-bold mb-1">
+                                    <span class="text-base"><i class="fas fa-hand-holding-usd mr-1"></i> 保單現金流</span>
+                                    <span class="text-xl">+ 90 萬/年</span>
+                                </div>
+                                
+                                <div class="h-8 flex justify-center items-center">
+                                    <i class="fas fa-chevron-down text-brand-gold animate-flow text-2xl"></i>
+                                </div>
+
+                                <div class="flex justify-between items-center text-red-500 font-bold mb-2 pb-2 border-b border-gray-100">
+                                    <span class="text-base"><i class="fas fa-file-invoice mr-1"></i> 償還房貸</span>
+                                    <span class="text-xl">- 96 萬/年</span>
+                                </div>
+
+                                <div class="bg-green-50 rounded p-2 text-green-800 font-bold text-sm flex justify-between items-center">
+                                    <span>資金缺口僅 6萬/年</span>
+                                    <span class="bg-green-200 px-2 py-1 rounded text-xs text-green-900">輕鬆用房租Cover</span>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-400 mt-2 text-center">本金不動，用利息養負債，這就是給孩子的財商示範。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-yellow-50 rounded-xl p-8 text-center mt-auto border border-yellow-200">
+                    <p class="text-base text-brand-blue font-bold mb-2">30年後的結局</p>
+                    <p class="text-2xl font-bold text-gray-800">擁有兩間房 + 完整的現金庫</p>
+                    <p class="text-sm text-gray-500 mt-2">80歲身故傳承</p>
+                    
+                    <p class="text-6xl font-black text-brand-gold my-2 tracking-tighter">$2,700萬</p>
+                    
+                    <div class="my-6 border-t border-b border-yellow-200 py-4 bg-white rounded-lg">
+                        <span class="bg-brand-blue text-white px-3 py-1 rounded-full text-sm font-bold mb-2 inline-block">控制權在手</span>
+                        <p class="text-brand-blue font-bold">想給誰就給誰，完全依照意志</p>
+                    </div>
+
+                    <p class="text-2xl md:text-3xl text-green-700 font-black leading-snug">
+                        <i class="fas fa-check-circle mr-2"></i>家人拿到房子 + <br>2,700萬壽險
+                    </p>
+                    <p class="text-sm text-green-600 font-bold mt-1">(自己指定受益人)</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-brand-dark py-16 text-white">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+                <i class="fas fa-crown text-brand-gold mr-3"></i> 企業主的六大資產思維
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-brand-gold hover:bg-gray-750 transition">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-shield-alt text-brand-gold text-3xl mr-4"></i>
+                        <h4 class="font-bold text-xl">資產避風港</h4>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">股票市場瞬息萬變，將獲利鎖進保單，打造一座這輩子只會長大、不會縮水的現金庫。</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-brand-gold hover:bg-gray-750 transition">
+                    <div class="fas fa-graduation-cap text-brand-gold text-3xl mr-4 mb-3 float-left"></div>
+                    <div>
+                        <h4 class="font-bold text-xl mb-2">最好的財商教育</h4>
+                        <p class="text-gray-400 leading-relaxed">言教不如身教。示範給孩子看：富人不是「害怕負債」，而是懂得「管理負債」來創造財富。</p>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-brand-gold hover:bg-gray-750 transition">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-balance-scale text-brand-gold text-3xl mr-4"></i>
+                        <h4 class="font-bold text-xl">傳承分配公平</h4>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">房子很難切一半，但 2700 萬現金可以精準均分。用保單解決未來可能的兄弟爭產問題。</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-brand-gold hover:bg-gray-750 transition">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-briefcase text-brand-gold text-3xl mr-4"></i>
+                        <h4 class="font-bold text-xl">企業級流動性</h4>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">2100萬還給銀行就沒了。留在保單裡，擁有高額現金價值，企業急需時可隨時調度。</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-brand-gold hover:bg-gray-750 transition">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-file-invoice-dollar text-brand-gold text-3xl mr-4"></i>
+                        <h4 class="font-bold text-xl">壓縮遺產稅</h4>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">保留 2100 萬房貸負債，身故時可從遺產總額中扣除，大幅降低應稅額度。</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-brand-gold hover:bg-gray-750 transition">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-bolt text-brand-gold text-3xl mr-4"></i>
+                        <h4 class="font-bold text-xl">身故快現金</h4>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">指定受益人，理賠金不需等待繁瑣遺產申報，家人可快速拿到現金支付稅金或應急。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-16 text-center my-8">
+        <div class="container mx-auto px-4">
+            <h1 class="text-5xl md:text-7xl font-black text-brand-blue mb-8 leading-tight">別讓您的 2,100 萬睡著了！</h1>
+            <p class="text-2xl md:text-3xl text-gray-600 font-bold max-w-4xl mx-auto">
+                您的一項決定，將決定留給孩子的是<br>
+                <span class="text-brand-gold">「現金鎖回銀行」</span> 還是 <span class="text-brand-blue">「同一筆錢倍增的功能」</span>。
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-500 text-center py-8 text-xs">
+        <div class="container mx-auto px-4">
+            <p>本試算僅供參考，實際分紅與理賠金額以保單條款及當時宣告利率為準。房貸利率與稅務法規可能隨政策調整。</p>
+        </div>
+    </footer>
+
+</body>
+</html>
